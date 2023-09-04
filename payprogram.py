@@ -1,17 +1,9 @@
+# Your name:
+# Class:
+# Problem 1: Calculate the pay for a duration of work
+# Program Title: Calculation for the pay of work
 def main():
-    pay_rate = 25
-    print("Simple Pay Program\n")
-    hours = int(input("How many hours did you work: "))
-    tax = .125
-    pay = (pay_rate) * hours
-    taxes = pay * tax
-    net_pay = pay - taxes
-    print("\nPay Stub")
-    print(f"\t\tHours: {hours}")
-    print(f"\t\tRate: ${pay_rate:.2f}")
-    print(f"\t\tPay: ${pay:.2f}")
-    print(f"\t\tTax: ${taxes:.2f}")
-    print(f"\t\tNet Pay: ${net_pay:.2f}")
+    pass # replace this line with all your codes
 
 if __name__ == "__main__":
     main()
